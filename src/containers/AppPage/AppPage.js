@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import logo from '../../assets/logo.svg';
-import '../../assets/css/App.css';
+
+const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+
+console.log({GITHUB_TOKEN});
 
 class AppPage extends Component {
   render() {
